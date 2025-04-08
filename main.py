@@ -25,4 +25,4 @@ def predict(
 
 
 
-#Example Usuage: http://127.0.0.1:8000/predict/?feature1=5.0&feature2=3.0&feature3=1.0
+#Example Usuage:http://127.0.0.1:8000/predict/?precipitation=5.0&rain=3.0&humidity=1.0
