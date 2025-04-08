@@ -11,9 +11,9 @@ app = FastAPI()
 
 @app.get("/predict/")
 def predict(
-    precipitation: float = Query(..., description="Precipitation"),
-    rain: float = Query(..., description="Rain"),
-    humidity: float = Query(..., description="Humidity")
+    precipitation: float = Query(..., description="precipitation"),
+    rain: float = Query(..., description="rain"),
+    humidity: float = Query(..., description="humidity")
 ):
     # Convert input to numpy array
     input_array = np.array([[precipitation, rain, humidity]])
